@@ -7,6 +7,7 @@ import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
+import PostComments from '../components/PostComments'
 import SEO from '../components/SEO'
 
 const PostTemplate = ({ data, pageContext }) => {
@@ -49,6 +50,7 @@ const PostTemplate = ({ data, pageContext }) => {
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
         <PageBody body={body} />
+        <PostComments />
       </Container>
       <PostLinks previous={previous} next={next} basePath={basePath} />
     </Layout>
