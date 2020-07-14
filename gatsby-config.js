@@ -29,7 +29,7 @@ module.exports = {
         slug: '/',
       },
       {
-        name: 'O-mnie',
+        name: 'Ja',
         slug: '/about/',
       },
       // {
@@ -83,8 +83,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'wmoejeszafie',
+        short_name: 'wmsz',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
