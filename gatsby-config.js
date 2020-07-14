@@ -16,25 +16,26 @@ try {
 }
 
 module.exports = {
+  pathPrefix: "/wmojejszafie",
   siteMetadata: {
-    title: 'GCN',
+    title: 'W mojej szafie',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
+      'W mojej szafie - blog',
+    siteUrl: 'https://wmojejszafie.pl',
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Start',
         slug: '/',
       },
       {
-        name: 'About',
+        name: 'O-mnie',
         slug: '/about/',
       },
-      {
-        name: 'Contact',
-        slug: '/contact/',
-      },
+      // {
+      //   name: 'Contact',
+      //   slug: '/contact/',
+      // },
     ],
     postsPerFirstPage: 7,
     postsPerPage: 6,
@@ -100,5 +101,15 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        RewriteBase: true,
+        https: true,
+        www: true,
+        SymLinksIfOwnerMatch: true,
+        host: 'www.wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
+      },
+    },
   ],
 }
