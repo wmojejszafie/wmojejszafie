@@ -25,74 +25,74 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-contact-js-77117fc3acae2345f4f9.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-060f6f3f770892c3861d.js
+/webpack-runtime-d1db1d33d2f8a8ca7557.js
   Cache-Control: public, max-age=31536000, immutable
-/app-a37d59361cab9af1e214.js
+/app-990d756c6268dab614f6.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/wmojejszafie/offline-plugin-app-shell-fallback/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js>; rel=preload; as=script
-/wmojejszafie/szuflada-na-bielizne/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/styles-cede38d6541a519b43f6.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
-/wmojejszafie/przebudzenie/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/styles-cede38d6541a519b43f6.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
-/wmojejszafie/powitanie/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/styles-cede38d6541a519b43f6.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
-/wmojejszafie/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-posts-js-894732200a5dd820a9db.js>; rel=preload; as=script
-/wmojejszafie/tag/osobiste
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
-/wmojejszafie/about/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/styles-cede38d6541a519b43f6.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-templates-page-js-3f43200e18ca2620fa75.js>; rel=preload; as=script
-/wmojejszafie/404/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-pages-404-js-86848ddb730230395f89.js>; rel=preload; as=script
-/wmojejszafie/contact/
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-pages-contact-js-77117fc3acae2345f4f9.js>; rel=preload; as=script
-/wmojejszafie/404.html
-  Link: </wmojejszafie/webpack-runtime-060f6f3f770892c3861d.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/app-a37d59361cab9af1e214.js>; rel=preload; as=script
-  Link: </wmojejszafie/commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
-  Link: </wmojejszafie/component---src-pages-404-js-86848ddb730230395f89.js>; rel=preload; as=script
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js>; rel=preload; as=script
+/szuflada-na-bielizne/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
+/przebudzenie/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
+/powitanie/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-f3ca42b29e8a109578f3.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-js-894732200a5dd820a9db.js>; rel=preload; as=script
+/tag/osobiste
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
+/about/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-templates-page-js-3f43200e18ca2620fa75.js>; rel=preload; as=script
+/404/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-86848ddb730230395f89.js>; rel=preload; as=script
+/contact/
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-pages-contact-js-77117fc3acae2345f4f9.js>; rel=preload; as=script
+/404.html
+  Link: </webpack-runtime-d1db1d33d2f8a8ca7557.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </app-990d756c6268dab614f6.js>; rel=preload; as=script
+  Link: </commons-f0a324461dd0e2f17e6d.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-86848ddb730230395f89.js>; rel=preload; as=script

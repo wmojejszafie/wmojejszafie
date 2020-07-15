@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-060f6f3f770892c3861d.js"
+    "url": "webpack-runtime-d1db1d33d2f8a8ca7557.js"
   },
   {
     "url": "commons-f0a324461dd0e2f17e6d.js"
   },
   {
-    "url": "app-a37d59361cab9af1e214.js"
+    "url": "app-990d756c6268dab614f6.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "11f0c7f3497042f0ee4d3ccf02e6686f"
+    "revision": "f4fe91d9f9060216e010abe174a9dfe6"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "f3e45f9e0f6d4518dd56f95d6ab33f37"
+    "revision": "5c3f930b4ec67832fd5d5e3d5ad27436"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -140,12 +140,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/wmojejszafie`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/wmojejszafie/app-a37d59361cab9af1e214.js`))) {
+  if (!resources || !(await caches.match(`/app-990d756c6268dab614f6.js`))) {
     return await fetch(event.request)
   }
 
@@ -158,7 +158,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/wmojejszafie/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
