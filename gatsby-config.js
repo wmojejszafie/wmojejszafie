@@ -21,7 +21,7 @@ module.exports = {
     title: 'W mojej szafie',
     description:
       'W mojej szafie - blog',
-    siteUrl: 'https://wmojejszafie.pl',
+    siteUrl: 'https://www.wmojejszafie.pl',
     image: '/images/share.jpg',
     menuLinks: [
       {
@@ -106,9 +106,9 @@ module.exports = {
       options: {
         RewriteBase: true,
         https: true,
-        www: false,
+        www: true,
         SymLinksIfOwnerMatch: true,
-        host: 'wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
+        host: 'www.wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
       },
     },
   ],
