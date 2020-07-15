@@ -33,6 +33,14 @@ const PostTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout>
+      <div id="fb-root"></div>
+      <script
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0&appId=2621867264723366"
+        nonce="cZXpDwfK"
+      ></script>
       <SEO
         title={title}
         description={
@@ -50,9 +58,9 @@ const PostTemplate = ({ data, pageContext }) => {
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
         <PageBody body={body} />
-        <PostComments />
       </Container>
       <PostLinks previous={previous} next={next} basePath={basePath} />
+      <PostComments />
     </Layout>
   )
 }

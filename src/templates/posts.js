@@ -10,16 +10,10 @@ import { startCase } from 'lodash'
 
 const Posts = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
-  const { humanPageNumber, basePath } = pageContext
-  const isFirstPage = humanPageNumber === 1
-  let featuredPost
+  const { basePath } = pageContext
+
   let ogImage
 
-  try {
-    featuredPost = posts[0].node
-  } catch (error) {
-    featuredPost = null
-  }
   try {
     ogImage = posts[0].node.heroImage.ogimg.src
   } catch (error) {
@@ -30,20 +24,11 @@ const Posts = ({ data, pageContext }) => {
     <Layout>
       <SEO title={startCase(basePath)} image={ogImage} />
       <Container>
-        {isFirstPage ? (
-          <CardList>
-            <Card {...featuredPost} featured basePath={basePath} />
-            {posts.slice(1).map(({ node: post }) => (
-              <Card key={post.id} {...post} basePath={basePath} />
-            ))}
-          </CardList>
-        ) : (
-          <CardList>
-            {posts.map(({ node: post }) => (
-              <Card key={post.id} {...post} basePath={basePath} />
-            ))}
-          </CardList>
-        )}
+        <CardList>
+          {posts.map(({ node: post }) => (
+            <Card key={post.id} {...post} basePath={basePath} />
+          ))}
+        </CardList>
       </Container>
       <Pagination context={pageContext} />
     </Layout>
