@@ -16,7 +16,7 @@ try {
 }
 
 module.exports = {
-  pathPrefix: "/wmojejszafie",
+  pathPrefix: "/",
   siteMetadata: {
     title: 'W mojej szafie',
     description:
@@ -106,9 +106,9 @@ module.exports = {
       options: {
         RewriteBase: true,
         https: true,
-        www: true,
+        www: false,
         SymLinksIfOwnerMatch: true,
-        host: 'www.wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
+        host: 'wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
       },
     },
   ],
