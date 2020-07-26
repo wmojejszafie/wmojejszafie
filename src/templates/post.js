@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -23,6 +23,10 @@ const PostTemplate = ({ data, pageContext }) => {
   const previous = pageContext.prev
   const next = pageContext.next
   const { basePath } = pageContext
+
+  useEffect(() => {
+    window && window.FB && window.FB.XFBML.parse();
+  }, []);
 
   let ogImage
   try {
