@@ -38,6 +38,13 @@
   Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
   Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js>; rel=preload; as=script
+/subtelne-pukanie-z-szafy/
+  Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-1de39d581cf4ca10e4af.js>; rel=preload; as=script
 /podziel-sie/
   Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
   Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
@@ -212,6 +219,24 @@
   Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
   Link: </component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
 /tag/badz-dla-siebie-dobra
+  Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
+/tag/moc-tworzenia
+  Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
+/tag/wspomnienia-z-dziecinstwa
+  Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
+  Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-faf6c13802199da3084c.js>; rel=preload; as=script
+/tag/wdziecznosc
   Link: </webpack-runtime-3607fe07e26111788345.js>; rel=preload; as=script
   Link: </commons-7c76a85a775b49572647.js>; rel=preload; as=script
   Link: </app-af84bbf33274ee4184ee.js>; rel=preload; as=script
