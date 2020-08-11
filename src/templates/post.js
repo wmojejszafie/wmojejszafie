@@ -22,8 +22,7 @@ const PostTemplate = ({ data, pageContext }) => {
 
   const previous = pageContext.prev
   const next = pageContext.next
-  const { basePath } = pageContext
-
+  const { basePath, slug } = pageContext
   useEffect(() => {
     window && window.FB && window.FB.XFBML.parse();
   }, []);
@@ -64,7 +63,7 @@ const PostTemplate = ({ data, pageContext }) => {
         <PageBody body={body} />
       </Container>
       <PostLinks previous={previous} next={next} basePath={basePath} />
-      <PostComments />
+      <PostComments slug={slug}/>
     </Layout>
   )
 }
