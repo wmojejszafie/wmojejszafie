@@ -32,13 +32,9 @@ module.exports = {
         name: 'Ja',
         slug: '/about/',
       },
-      // {
-      //   name: 'Contact',
-      //   slug: '/contact/',
-      // },
     ],
-    postsPerFirstPage: 7,
-    postsPerPage: 6,
+    postsPerFirstPage: 15,
+    postsPerPage: 15,
     basePath: '/',
   },
   plugins: [
@@ -75,7 +71,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS,
+        trackingId:  'UA-38565715-3',
         head: true,
       },
     },

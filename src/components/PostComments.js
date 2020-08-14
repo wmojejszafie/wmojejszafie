@@ -8,7 +8,7 @@ class PostComments extends Component {
         <div
           style={{ display: 'flex', justifyContent: 'center' }}
           className="fb-comments"
-          data-href={`https://www.wmojejszafie.pl/${this.props.slug}`}
+          data-href={`https://www.wmojejszafie.pl${this.props.slug === 'powitanie' ? "" : "/"+this.props.slug}`}
           data-numposts="5"
           data-width=""
         ></div>
