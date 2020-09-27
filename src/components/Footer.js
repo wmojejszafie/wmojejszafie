@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
+import SocialSection from './SocialSection'
+
 const Wrapper = styled.footer`
   display: flex;
   flex-flow: row wrap;
@@ -57,6 +59,7 @@ const Footer = () => (
           />
         </a>
       </Item>
+      <SocialSection />
     </List>
   </Wrapper>
 )

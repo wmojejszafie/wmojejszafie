@@ -16,11 +16,10 @@ try {
 }
 
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: '/',
   siteMetadata: {
     title: 'W mojej szafie',
-    description:
-      'W mojej szafie - blog',
+    description: 'W mojej szafie - blog',
     siteUrl: 'https://www.wmojejszafie.pl',
     image: '/images/share.jpg',
     menuLinks: [
@@ -38,6 +37,7 @@ module.exports = {
     basePath: '/',
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-emotion`,
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
@@ -71,7 +71,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId:  'UA-38565715-3',
+        trackingId: 'UA-38565715-3',
         head: true,
       },
     },

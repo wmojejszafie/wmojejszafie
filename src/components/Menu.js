@@ -1,12 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled'
+
+import SocialSection from './SocialSection'
+
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.primary};
   width: 100%;
-  padding: 1.5em 0;
+  padding: 1em 0;
+`
+
+const SocialWrapper = styled.div`
+  width: 100%;
+  max-width: ${props => props.theme.sizes.maxWidth};
+  margin: 0 auto;
+  padding: 0 1em;
 `
 const Nav = styled.nav`
   width: 100%;
@@ -60,6 +70,9 @@ const Menu = () => {
           ))}
         </ul>
       </Nav>
+      <SocialWrapper>
+        <SocialSection />
+      </SocialWrapper>
     </Header>
   )
 }
