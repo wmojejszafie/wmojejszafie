@@ -12,17 +12,21 @@ const Header = styled.header`
   padding: 1em 0;
 `
 
-const SocialWrapper = styled.div`
-  width: 100%;
-  max-width: ${props => props.theme.sizes.maxWidth};
-  margin: 0 auto;
-  padding: 0 1em;
+const LiWrapper = styled.span`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 `
+
+const SocialWrapper = styled.span`
+  padding: 0 0.5em;
+`
+
 const Nav = styled.nav`
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidth};
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0.5em 1.5em;
 
   ul {
     display: flex;
@@ -40,6 +44,7 @@ const Nav = styled.nav`
   }
 
   a {
+    width: max-content;
     text-decoration: none;
     color: DarkGray;
     font-weight: 600;
@@ -63,16 +68,20 @@ const Menu = () => {
         <ul>
           {menuLinks.map(link => (
             <li key={link.name}>
-              <Link to={link.slug} activeStyle={activeLinkStyle}>
-                {link.name}
-              </Link>
+              <LiWrapper>
+                {link.name === 'O mnie' && (
+                  <SocialWrapper>
+                    <SocialSection />
+                  </SocialWrapper>
+                )}
+                <Link to={link.slug} activeStyle={activeLinkStyle}>
+                  {link.name}
+                </Link>
+              </LiWrapper>
             </li>
           ))}
         </ul>
       </Nav>
-      <SocialWrapper>
-        <SocialSection />
-      </SocialWrapper>
     </Header>
   )
 }

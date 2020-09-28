@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 const List = styled.ul`
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row no-wrap;
   justify-content: flex-end;
   align-items: flex-end;
 `
