@@ -32,6 +32,7 @@
 <url> <loc>https://www.wmojejszafie.pl/powitanie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.wmojejszafie.pl/tag/doswiadczenia-przeszlosci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/obfitosc-to-bogactwo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/perspektywa-zmienia-wszystko</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/harmonia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -59,7 +60,6 @@
 <url> <loc>https://www.wmojejszafie.pl/tag/poczucie-kobiecosci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/samorozwoj</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/osobiste</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.wmojejszafie.pl/tag/doswiadczenia-przeszlosci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
