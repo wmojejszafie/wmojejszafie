@@ -1,0 +1,552 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.493e6315ef3a09bc2f74.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.19.12"/><style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}</style><title data-react-helmet="true">Najeżona | W mojej szafie</title><meta data-react-helmet="true" charSet="utf-8"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/><meta data-react-helmet="true" name="image" content="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&amp;fl=progressive&amp;q=50"/><meta data-react-helmet="true" name="description" content="Gdy syn dorasta.
+Gdy syn zostaje mężem.
+Stworzyć więź ale nie przywiązać do siebie na całe życie.
+Blog osobisty."/><meta data-react-helmet="true" property="og:title" content="Najeżona"/><meta data-react-helmet="true" property="og:image" content="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&amp;fl=progressive&amp;q=50"/><meta data-react-helmet="true" property="og:description" content="Gdy syn dorasta.
+Gdy syn zostaje mężem.
+Stworzyć więź ale nie przywiązać do siebie na całe życie.
+Blog osobisty."/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:title" content="Najeżona"/><meta data-react-helmet="true" name="twitter:image" content="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&amp;fl=progressive&amp;q=50"/><meta data-react-helmet="true" name="twitter:description" content="Gdy syn dorasta.
+Gdy syn zostaje mężem.
+Stworzyć więź ale nie przywiązać do siebie na całe życie.
+Blog osobisty."/><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-38565715-3', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/icons/icon-48x48.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#ffffff"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=89d1e4e7e7df594608cf22f6fc42dbcd"/><link as="script" rel="preload" href="/styles-cede38d6541a519b43f6.js"/><link as="script" rel="preload" href="/component---src-templates-post-js-988ed897e559dbc3f513.js"/><link as="script" rel="preload" href="/commons-0688158cedbae24c6da9.js"/><link as="script" rel="preload" href="/app-5744b6caed557107ffa7.js"/><link as="script" rel="preload" href="/webpack-runtime-f4bd4dc592e339fac62d.js"/><link as="fetch" rel="preload" href="/page-data\najezona\page-data.json" crossorigin="anonymous"/></head><body><script>(function() { try {
+  var mode = localStorage.getItem('theme-ui-color-mode');
+  if (!mode) return
+  document.body.classList.add('theme-ui-' + mode);
+} catch (e) {} })();</script><div id="___gatsby"><style data-emotion-css="1sma88f">body{color:var(--theme-ui-colors-text,#121212);background-color:var(--theme-ui-colors-background,#ffffff);}</style><style data-emotion-css="1d7m1w5">*{box-sizing:border-box;}body{margin:0;}</style><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><style data-emotion-css="p6pxnf">.css-p6pxnf{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}</style><div class="siteRoot css-p6pxnf e16mhi8c0"><div class="siteContent"><style data-emotion-css="1td97ac">.css-1td97ac{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 1rem;line-height:60px;background:#2867cf;color:white;z-index:101;position:fixed;top:-100%;}.css-1td97ac:hover{-webkit-text-decoration:underline;text-decoration:underline;}.css-1td97ac:focus,.css-1td97ac:active,.css-1td97ac:hover{top:0;}</style><a href="#main" id="skip-navigation" class="css-1td97ac e16mhi8c1">Skip to content</a><style data-emotion-css="1hze5fg">.css-1hze5fg{background:var(--theme-ui-colors-primary,#121212);width:100%;padding:1em 0;}</style><header class="css-1hze5fg e1h6nnwi0"><style data-emotion-css="sako14">.css-sako14{width:100%;max-width:1050px;margin:0 auto;padding:0.5em 1.5em;}.css-sako14 ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.css-sako14 li{display:inline-block;margin-left:1em;}.css-sako14 li:first-of-type{position:relative;margin:0;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;}.css-sako14 a{width:-webkit-max-content;width:-moz-max-content;width:max-content;-webkit-text-decoration:none;text-decoration:none;color:DarkGray;font-weight:600;-webkit-transition:all 0.2s;transition:all 0.2s;border-bottom:2px solid var(--theme-ui-colors-text,#121212);}.css-sako14 a:hover{color:white;}</style><nav class="css-sako14 e1h6nnwi3"><ul><li><style data-emotion-css="1wj0762">.css-1wj0762{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;}</style><span class="css-1wj0762 e1h6nnwi1"><a href="/">Start</a></span></li><li><span class="css-1wj0762 e1h6nnwi1"><style data-emotion-css="1yi5x90">.css-1yi5x90{padding:0 0.5em;}</style><span class="css-1yi5x90 e1h6nnwi2"><style data-emotion-css="970wkm">.css-970wkm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row no-wrap;-ms-flex-flow:row no-wrap;flex-flow:row no-wrap;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;}</style><ul class="css-970wkm e7vv0ik0"><style data-emotion-css="m2rlhc">.css-m2rlhc{display:inline-block;margin:0 0.2em;}@media screen and (min-width:35em){.css-m2rlhc{width:auto;}}.css-m2rlhc a{font-weight:600;-webkit-transition:all 0.2s;transition:all 0.2s;color:var(--theme-ui-colors-text,#121212);}.css-m2rlhc a:hover{color:var(--theme-ui-colors-highlight,#5b8bf7);}.css-m2rlhc a:visited{color:var(--theme-ui-colors-text,#121212);}</style><li class="css-m2rlhc e7vv0ik1"><a href="https://www.facebook.com/Wmojej-Szafie-104806204683071" rel="nofollow noopener noreferrer" target="_blank"><span style="color:#4267B2"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></span></a></li><li class="css-m2rlhc e7vv0ik1"><a href="mailto: wmojejszafie.pl@gmail.com" rel="nofollow noopener noreferrer"><span style="color:#B23121"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg></span></a></li></ul></span><a href="/about/">O mnie</a></span></li></ul></nav></header><div id="main"><div id="fb-root"></div><script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&amp;version=v7.0&amp;appId=2621867264723366" nonce="cZXpDwfK"></script><style data-emotion-css="1nywo4t">.css-1nywo4t{position:relative;min-height:300px;height:auto;}@media (min-width:35em){.css-1nywo4t{height:50vh;}}</style><section height="50vh" class="css-1nywo4t ev0vqal0"><style data-emotion-css="t0wmq4">.css-t0wmq4{position:absolute;width:100%;height:100%;}.css-t0wmq4::before{content:'';background:rgba(0,0,0,0.25);position:absolute;top:0;left:0;right:0;bottom:0;height:100%;width:100%;z-index:1;}</style><div class="css-t0wmq4 ev0vqal1 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:75.00865351332641%"></div><div aria-hidden="true" style="background-color:#eeeeee;position:absolute;top:0;bottom:0;opacity:1;right:0;left:0;transition-delay:500ms"></div><noscript><picture><source type='image/webp' srcset="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=450&h=338&q=50&fm=webp 450w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=900&h=675&q=50&fm=webp 900w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&h=1350&q=50&fm=webp 1800w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2700&h=2025&q=50&fm=webp 2700w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2889&h=2167&q=50&fm=webp 2889w" sizes="(max-width: 1800px) 100vw, 1800px" /><source srcset="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=450&h=338&q=50 450w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=900&h=675&q=50 900w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&h=1350&q=50 1800w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2700&h=2025&q=50 2700w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2889&h=2167&q=50 2889w" sizes="(max-width: 1800px) 100vw, 1800px" /><img loading="lazy" sizes="(max-width: 1800px) 100vw, 1800px" srcset="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=450&h=338&q=50 450w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=900&h=675&q=50 900w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&h=1350&q=50 1800w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2700&h=2025&q=50 2700w,
+//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=2889&h=2167&q=50 2889w" src="//images.ctfassets.net/i835o3jrjmw9/3MN6gZKWd4WzrlsnrmknGW/1da3b3c63f7df5229c5715c85235d40e/20201005_172716.jpg?w=1800&q=50" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><style data-emotion-css="7a09zx">.css-7a09zx{z-index:2;font-size:3em;text-transform:capitalize;font-weight:600;position:absolute;width:100%;max-width:650px;padding:0 1rem;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-align:center;color:white;}</style><h1 class="css-7a09zx ev0vqal2">Najeżona</h1></section><style data-emotion-css="12q3pxa">.css-12q3pxa{margin:0 auto auto;width:100%;max-width:1050px;padding:3em 1.5em 2em;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}</style><section class="css-12q3pxa e1v0oy570"><style data-emotion-css="gbompc">.css-gbompc{width:100%;margin:0 auto 1em auto;max-width:650px;}</style><ul class="css-gbompc exdd84b0"><style data-emotion-css="1ape8dn">.css-1ape8dn{display:inline-block;margin:0 0.25em 0.25em 0;}.css-1ape8dn a{float:left;-webkit-transition:0.2s;transition:0.2s;background:var(--theme-ui-colors-tertiary,#f3f3f3);padding:0.5em;border-radius:2px;text-transform:capitalize;-webkit-text-decoration:none;text-decoration:none;color:var(--theme-ui-colors-text,#121212);border:1px solid var(--theme-ui-colors-secondary,#e9e9e9);}.css-1ape8dn a:hover{background:var(--theme-ui-colors-secondary,#e9e9e9);}</style><li class="css-1ape8dn exdd84b1"><a href="/tag/bycie-zona-swojego-meza/">bycie żoną swojego męża</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/korzenie/">korzenie</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/macierzynstwo/">macierzyństwo</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/osobiste/">Osobiste</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/perspektywa-zmienia-wszystko/">perspektywa zmienia wszystko</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/przestrzen-do-rozwoju/">Przestrzeń do rozwoju</a></li><li class="css-1ape8dn exdd84b1"><a href="/tag/meskosc/">męskość</a></li></ul><style data-emotion-css="ow41uc">.css-ow41uc{margin:0 auto 2em;max-width:650px;}.css-ow41uc span{margin:0 0.5rem;}</style><div class="css-ow41uc e1ds93xh0"><style data-emotion-css="1baulvz">.css-1baulvz{display:inline-block;}</style><p class="css-1baulvz e1ds93xh1">📅 <!-- -->05.10.2020</p></div><style data-emotion-css="v900br">.css-v900br{margin:0 auto;max-width:650px;}.css-v900br h1,.css-v900br h2,.css-v900br h3{font-weight:600;line-height:1.25;margin:0 0 1rem 0;text-transform:capitalize;}.css-v900br h1{font-size:1.5em;}.css-v900br h2{font-size:1.25em;}.css-v900br h3{font-size:1em;}.css-v900br p{line-height:1.6;margin:0 0 2em 0;text-align:justify;}.css-v900br a{-webkit-transition:0.2s;transition:0.2s;color:var(--theme-ui-colors-text,#121212);}.css-v900br a:hover{color:var(--theme-ui-colors-highlight,#5b8bf7);}.css-v900br del{-webkit-text-decoration:line-through;text-decoration:line-through;}.css-v900br strong{font-weight:600;}.css-v900br em{font-style:italic;}.css-v900br ul,.css-v900br ol{margin:0 0 2em 0;}.css-v900br ul li{list-style:disc;list-style-position:inside;line-height:1.25;}.css-v900br ul li:last-child{margin:0;}.css-v900br ol li{list-style:decimal;list-style-position:inside;line-height:1.25;}.css-v900br ol li:last-child{margin:0;}.css-v900br hr{border-style:solid;border-color:var(--theme-ui-colors-secondary,#e9e9e9);margin:0 0 2em 0;}.css-v900br blockquote{font-style:italic;border-left:4px solid var(--theme-ui-colors-secondary,#e9e9e9);padding:0 0 0 0.5em;}.css-v900br pre{margin:0 0 2em 0;border-radius:2px;background:var(--theme-ui-colors-secondary,#e9e9e9) !important;}.css-v900br pre span{background:inherit !important;}</style><div class="css-v900br ejhfsuj0"><p>Bywa, że lubię dni rozpoczynać od słów, będących fragmentami czyichś myśli. Wtedy dany cytat, słowo, sentencja prowadzą mnie przez cały dzień. Tak było i tym razem, choć szczerze TAKIEGO towarzyszenia raczej nie przewidywałam. Zaczęło się niewinnie - "Każdy syn wyrośnie kiedyś ze swoich zabawek i stanie się mężczyzną..." - ciekawość we mnie narasta. Tak się składa, że mam syna. Z wielu zabawek już wyrósł - na przykład z grzechotek, kontrastowych książeczek i tych irytujących, migocząco-grających plastików. Na to ostatnie czekałam z największym entuzjazmem. Co nie znaczy, że nie byłam ciekawa następców grzechotek i innych gadżetów, (nie)zbędnych niemowlakowi. Wręcz przeciwnie. Każdy kolejny etap w życiu mojego syna budzi we mnie ciekawość. W każdym potrafię odkryć blaski i cienie. Nie buntuję się przeciw tym etapom. Są naturalną konsekwencją wrastania korzeniami w ziemię, kształtowania pnia, rozbudowywania się korony. Coraz więcej umie, coraz więcej rozumie, coraz więcej może sam. A tym samym coraz mniej mnie wypełnia każdą godzinę jego życia. I myślę sobie - cudownie - przez pierwsze miesiące byliśmy nierozłczni, a ja wypełniałam szczelnie każdą sekundę jego życia. Weszliśmy w etap minut, teraz godzin. </p>
+<p>Wróćmy do sentencji... Czytam dalej - "ale" - zapala mi się czerwona lampka. No tak, zawsze musi być ale. Wyrósł z zabawek, stał się mężyczyzną i oni nadal widzą w tym jakieś ale... Najeżyłam się. Wracam do czytania - "ale w sercu matki na zawsze pozostanie małym chłopcem" - no żesz kurna! Zaorane! Kurtyna! </p>
+<p>I tak sobie myślę... co takiego BLE jest w obrazie dorosłego syna w sercu? Jasne, że słodki, mały Pimpuś jest rozczulający, ale ile radości musi się kryć w otworzeniu ramion i wypuszczeniu syna do ludzi, by poznawał, zdobywał, doświadczał. Jaka duma musi rozpierać gdy przyniesie pierwsze świadectwo szkolne, niezależnie od koloru paska na nim widniejącego. Jakim pięknym musi być moment, gdy w progu domu staje pierwsza miłość syna. Jego pierwsza praca, dorosłe wybory, siła z jaką bierze na ramiona konsekwencje podejmowanych decyzji. </p>
+<p>Najeżenie nie ustępuje. Kłuje z każdym kwadransem mocniej. Z jednej strony jest stado synków, którzy na zawsze pozostają w sercu matki jako mali chłopcy, a po drugiej stronie barykady rzesze córek, które od maleńkości są wychowywane w duchu tego, co w przyszłości będą musiały, jakie role będą podejmowały. Małe wojowniczki, które muszą być gotowe na wszystko - umieć ugotować, zadbać o dom, rodzinę, ale i być niezależne, niezłomne w dążeniu do celu, oraz... słodcy Pimpusiowie, wieczni mali chłopcy w sercach matek - nie ważne czy odpowiedzialni, czy zaradni - przyszłość nie ma aż tak dużego znaczenia - bo w sercu matek zawsze będą ICH małymi chłopcami. Możesz się nie zgadzać, możesz tupać nogą - ja tak to widzę.</p>
+<p>Nie ma dla mnie nic gorszego niż spętany pępowiną dorosły chłop, szukający w partnerce tych matczynych oczu, wpatrzonych w swego słodkiego Pimpusia... Przypominam! Mam syna i nadal ten obraz wywołuje we mnie dreszcze. Choć syn mój  odrósł dopiero od ziemi na wysokość 88cm mówi o sobie czasem, że jest uwaga -mężczyzną, a czasem, że eleganckim chłopakiem - więc moje serce podąża właśnie za takim nim. I nie, nie jest to teraz pieśń pochwalna mnie-matki, choć sądzę, że najgorsza też nie jestem. W końcu w danej chwili daje z siebie 100% i naprawdę  sprawą drugorzędną jest fakt, że nazajutrz zdarza mi się ocenić te moje 100% na zaledwie 20%, 40% czy 70%. Ale z perspektywy czasu zawsze można było zrobić wszystko lepiej. Wiem jedno, ja matka wychowuję mojego syna dla... kogoś innego, dla osoby, która będzie mu towarzyszyć w życiu. </p>
+<p>Jeśli argument syna własnego nie przemawia, to może ugryźmy temat z drugiej strony. Weźmy na tapetę syna mojej czy Twojej teściowej - znaczy mojego czy Twojego mężczyznę. Dla spokoju ducha na wstępie polecam sprawdzić czy wśród pierdyliona lajków i serduszek pod powyższą sentencją, nie ma przypadkiem emotikony rodzicielki mojego/Twojego męża/kochanka/faceta/towarzysza życia - zawsze łatwiej rozprawiać się z demonami gdy są hipotetyczne.</p>
+<p>Lubię gdy mężczyzna ma swoje zdanie, nie tyle, że jest uparty jak osioł, co ma argumenty, które przemawiają za jego stanowiskiem. Bo lubię czasem (w ostateczności rzecz jasna) rzucić swoim arcykonstruktywnym "bo tak"! I chcę mieć kogoś z głową na karku na tę okoliczność. Lubię gdy mężczyzna jest odważny - nie żeby porywał się na hordę osobników płci męskiej w pojedynkę (chyba, że biega jak gepard i potrzebuje potrenować - to w sumie spoko... chyba) - bo bywa, że mi samej odwagi zabraknie. A czasem podejmuję decyzje, które wymagają ogromnych jej pokładów - więc chciałabym, by potrafił dotrzymać mi kroku. I żeby nie było, ludzkim jest bać się. Ale jeśli ktoś boi się wszystkiego to znaczy, że średnio odnajdzie się w życiu. Chyba, że trafi na kogoś, kto będzie jego tarczą. Jeśli drugiej stronie to odpowiada, to ok - ale to zdecydowanie nie moja bajka. Lubię gdy mężczyzna jest zaradny, bo sama z lwią częścią spraw życia codziennego potrafię bez większego problemu sobie poradzić. Ale... żeby facet mógł działać czasem trzeba się wycofać. Bo jeśli kobieta jest taka samowystarczalna, to on już nie ma zwyczajnie o co i po co się starać. Czasem lubię być "bezradna", nie dlatego, że nie potrafię (choć i tak bywa) ale dlatego, że jeśli jest ktoś, kto chce i może odciążyć mnie, to czemu miałabym nie skorzystać. W szafie wycie - no tak, przecież Matka Polka i wzorowa żona wszystko bierze sobie na łeb. Ciągnie nosem po ziemi, przygnieciona sprawami jej i jego, bo przecież jest niezniszczalna. Nie zrozum mnie źle. Lekko prześmiewczy ton nie wynika z pogardy dla takiego czy innego modelu czy sposobu życia. To raczej taka lekka autozłośliwość - bo tę drogę też poznałam. Też nią szłam, ale nie jest dla mnie. I cieszę się, że to odkryłam. Jeśli którejś pasuje powyższy model - jej droga, jej sprawa - ale mówię tu o sobie. Pamiętaj, że to o czym piszę jest moim postrzeganiem świata. Moją drogą, o której słuszności przekonam się (lub nie) na końcu...  Póki co nie będę przepraszać za to, co myślę i jak odczuwam. Mam tylko w sobie takie poczucie, że małżeńsko-rodzinny świat kobiet stanął na głowie. Ale jedyne co mogę z tym zrobić, to uporządkować mój własny.</p>
+<p>Nieźle popłynęłam. Bo w sumie chodziło mi tylko o to, że dorosły człowiek jest dorosły i powinien takim być też w sercu matki. A gdy matka nie pozwala w swoim sercu na dorosłość swojego dziecka to znaczy, że zatrzymała się na jakimś etapie. Bo bycie matką to dawać i nie oczekiwać zwrotu. To stworzyć wieź, ale nie przywiązać do siebie na smyczy. W sercu matki zawsze będą wspomnienia małego Pimpusia, ale zaakceptowanie faktu, że dorósł (zaakceptowanie, a nie tylko przyjęcie do wiadomości) pozwoli mu rozwinąć skrzydła. "Spójrz mamo, jestem dorosły, a mimo to jest dla mnie, dorosłego, miejsce w Twoim sercu". Myślę, że stereotyp "standardowej teściowej" może czerpać z tego źródełka... Bo mamusia wie lepiej co malutkiemu synkowi bardziej potrzeba w dorosłym życiu... Malutki synek potrzebuje mamy, dorosły (żonaty - bo o tym typie synów piszę) buduje swój świat z żoną, partnerką.</p>
+<p>Dlatego, choć czasem to trudne, pozwalam mojemu 88centymetrowemu mężczyźnie być w swojej jaskini, tupać nogą, walczyć o własne zdanie - nawet gdy na pytanie dlaczego się złości odpowiada, że nie wie. Ale dowie się, gdy dam mu przestrzeń. Więc mu ją daję, czasem wręcz popycham w jej czeluści - idź synu i odkrywaj kim jesteś, czego chcesz i pragniesz. A gdy już Twoje, jeszcze małe ramionka nie dadzą rady udźwignąć tego, co w danym momencie na nie spadło, przybiegnij do mnie i wtul się w moje matczyne skrzydła. Nabieraj sił i ruszaj dalej zdobywać świat. W moim sercu, z każdym dniem jesteś coraz doroślejszy, choć nawet nie umiesz jeszcze samodzielnie założyć butów na odpowiednią nogę. </p>
+<p>Zawsze myślałam, że w życiu przechlapane mają dziewczynki, dziewczyny, kobiety. Ale teraz tak sobie myślę że chłopcy, nastolatkowie, dorośli męźczyźni mają zwyczajnie przewalone, gdy serce matki zatrzymuje się na etapie maleńkiego chłopca..</p></div></section><style data-emotion-css="1z01s6n">.css-1z01s6n{margin:-2em 0 0 0;padding:0 1.5em 2em;}</style><div class="css-1z01s6n e15ljq4k0"><style data-emotion-css="60kxju">.css-60kxju{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:0 auto;width:100%;max-width:650px;}.css-60kxju a{background:var(--theme-ui-colors-primary,#121212);color:white;padding:1em;border-radius:2px;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:0.2s;transition:0.2s;}.css-60kxju a:hover{background:var(--theme-ui-colors-highlight,#5b8bf7);}</style><div class="css-60kxju e15ljq4k1"><style data-emotion-css="14o6db5">.css-14o6db5{margin-left:auto;-webkit-order:2;-ms-flex-order:2;order:2;}</style><a class="css-14o6db5 e15ljq4k3" href="/t-jak-tato-m-jak-mama/">Następny →</a></div></div><div><div style="display:flex;justify-content:center" class="fb-comments" data-href="https://www.wmojejszafie.pl/najezona" data-numposts="5" data-width=""></div><div><div><div class="fb-comments" data-href="http://www.facebook.com"></div></div></div></div></div></div><style data-emotion-css="vdyr8l">.css-vdyr8l{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;margin:0 auto;max-width:1050px;}</style><footer class="css-vdyr8l e12hzzzc0"><style data-emotion-css="1wc1209">.css-1wc1209{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;width:100%;border-top:1px solid var(--theme-ui-colors-secondary,#e9e9e9);padding:1em 0 2em;margin:0 1.5em;}</style><ul class="css-1wc1209 e12hzzzc1"><style data-emotion-css="10qzxnt">.css-10qzxnt{display:inline-block;padding:0.25em 0;width:100%;}@media screen and (min-width:35em){.css-10qzxnt{width:auto;}}.css-10qzxnt a{font-weight:600;-webkit-transition:all 0.2s;transition:all 0.2s;color:var(--theme-ui-colors-text,#121212);}.css-10qzxnt a:hover{color:var(--theme-ui-colors-highlight,#5b8bf7);}.css-10qzxnt a:visited{color:var(--theme-ui-colors-text,#121212);}</style><li class="css-10qzxnt e12hzzzc2"><a href="https://www.contentful.com/" rel="nofollow noopener noreferrer" target="_blank"><img src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg" style="width:100px" alt="Powered by Contentful"/></a></li><ul class="css-970wkm e7vv0ik0"><li class="css-m2rlhc e7vv0ik1"><a href="https://www.facebook.com/Wmojej-Szafie-104806204683071" rel="nofollow noopener noreferrer" target="_blank"><span style="color:#4267B2"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></span></a></li><li class="css-m2rlhc e7vv0ik1"><a href="mailto: wmojejszafie.pl@gmail.com" rel="nofollow noopener noreferrer"><span style="color:#B23121"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg></span></a></li></ul></ul></footer><style data-emotion-css="1x7t2vk">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}html,body{background:white;height:100%;}.siteRoot{height:100vh;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.siteContent{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;}footer{width:100%;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}@media screen and (min-width:35em){html{margin-right:calc(-100vw + 100%);overflow-x:hidden;}}ol,ul,li{list-style:none;}blockquote,q{quotes:none;}blockquote::before,blockquote::after,q::before,q::after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}*{box-sizing:border-box;}body{line-height:1;font-size:100%;font-variant-ligatures:none;text-rendering:optimizeLegibility;text-shadow:rgba(0,0,0,0.01) 0 0 1px;font-weight:400;}img{display:block;width:100%;height:auto;}button,input,textarea,select{font-family:inherit;font-size:inherit;background:none;border:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0;resize:none;}button:invalid,input:invalid,textarea:invalid,select:invalid{box-shadow:none;}button:focus,input:focus,textarea:focus,select:focus{outline:5px auto #5e9ed6;outline:5px auto -webkit-focus-ring-color;}body:not(.user-is-tabbing) button:focus,body:not(.user-is-tabbing) input:focus,body:not(.user-is-tabbing) select:focus,body:not(.user-is-tabbing) textarea:focus,body:not(.user-is-tabbing) a:focus{outline:none;}</style></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/najezona/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-5744b6caed557107ffa7.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js"],"component---src-templates-post-js":["/component---src-templates-post-js-988ed897e559dbc3f513.js"],"component---src-templates-posts-js":["/component---src-templates-posts-js-1bf14550ff66a248eed3.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-5888d3dd949e691fc878.js"],"component---src-templates-page-js":["/component---src-templates-page-js-6108c9f932c477f38e72.js"],"component---src-pages-404-js":["/component---src-pages-404-js-86848ddb730230395f89.js"],"component---src-pages-contact-js":["/component---src-pages-contact-js-77117fc3acae2345f4f9.js"]};/*]]>*/</script><script src="/webpack-runtime-f4bd4dc592e339fac62d.js" async=""></script><script src="/app-5744b6caed557107ffa7.js" async=""></script><script src="/commons-0688158cedbae24c6da9.js" async=""></script><script src="/component---src-templates-post-js-988ed897e559dbc3f513.js" async=""></script><script src="/styles-cede38d6541a519b43f6.js" async=""></script></body></html>
