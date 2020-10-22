@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://www.wmojejszafie.pl/dobry-dzien/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/muzyka-ciszy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/pojasnialo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/utknelam-w-szafie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -71,6 +72,7 @@
 <url> <loc>https://www.wmojejszafie.pl/tag/wstyd-a-poczucie-wlasnej-wartosci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/poczucie-bezpieczenstwa</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/tag/muzyka-w-duszy-gra</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.wmojejszafie.pl/tag/zmiana-rodzi-zmiane</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.wmojejszafie.pl/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
