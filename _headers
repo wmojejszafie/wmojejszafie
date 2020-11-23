@@ -38,6 +38,13 @@
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js>; rel=preload; as=script
+/swiateczna-magia-z-szafy/
+  Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-988ed897e559dbc3f513.js>; rel=preload; as=script
 /zasiedzialam-sie/
   Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
@@ -617,6 +624,18 @@
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </component---src-templates-tag-js-5888d3dd949e691fc878.js>; rel=preload; as=script
 /tag/poza-strefa-komfortu
+  Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-5888d3dd949e691fc878.js>; rel=preload; as=script
+/tag/delikatnosc
+  Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-5888d3dd949e691fc878.js>; rel=preload; as=script
+/tag/w-objeciach-lagodnosci
   Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
