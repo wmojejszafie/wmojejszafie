@@ -38,6 +38,13 @@
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
   Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-7132ff02839e24deed5e.js>; rel=preload; as=script
+/must-have-2021/
+  Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
+  Link: </styles-cede38d6541a519b43f6.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-988ed897e559dbc3f513.js>; rel=preload; as=script
 /rok-buntu/
   Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
@@ -366,6 +373,12 @@
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </component---src-templates-posts-js-1bf14550ff66a248eed3.js>; rel=preload; as=script
 /3
+  Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
+  Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
+  Link: </component---src-templates-posts-js-1bf14550ff66a248eed3.js>; rel=preload; as=script
+/4
   Link: </webpack-runtime-f4bd4dc592e339fac62d.js>; rel=preload; as=script
   Link: </commons-0688158cedbae24c6da9.js>; rel=preload; as=script
   Link: </app-5744b6caed557107ffa7.js>; rel=preload; as=script
