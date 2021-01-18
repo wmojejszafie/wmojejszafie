@@ -94,6 +94,7 @@ module.exports = {
       options: {
         path: `./src/gatsby/schema/schema.gql`,
         update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
+        precachePages: [`/about/`, `/page-data/*`],
       },
     },
     'gatsby-plugin-netlify',
