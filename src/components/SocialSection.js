@@ -1,7 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
+import {
+  faFacebookSquare,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 const List = styled.ul`
@@ -40,6 +43,17 @@ const SocialSection = () => (
       >
         <span style={{ color: '#4267B2' }}>
           <FontAwesomeIcon icon={faFacebookSquare} />
+        </span>
+      </a>
+    </Item>
+    <Item>
+      <a
+        href="https://www.instagram.com/wmojej_szafie"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+      >
+        <span style={{ color: '#4267B2' }}>
+          <FontAwesomeIcon icon={faInstagram} />
         </span>
       </a>
     </Item>
