@@ -88,15 +88,15 @@ module.exports = {
         icon: './static/images/favicon.png',
       },
     },
-    'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-schema-snapshot`,
-      options: {
-        path: `./src/gatsby/schema/schema.gql`,
-        update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
-        precachePages: [`/about/`, `/page-data/*`],
-      },
-    },
+    // 'gatsby-plugin-offline',
+    // {
+    //   resolve: `gatsby-plugin-schema-snapshot`,
+    //   options: {
+    //     path: `./src/gatsby/schema/schema.gql`,
+    //     update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
+    //     precachePages: [`/about/`, `/page-data/*`],
+    //   },
+    // },
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-htaccess',
