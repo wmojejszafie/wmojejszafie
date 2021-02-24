@@ -18,13 +18,21 @@ try {
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: 'W mojej szafie',
-    description: 'W mojej szafie - blog',
+    title:
+      'W mojej szafie - blog o życiu, emocjach, kobiecości i własnej drodze. Jak pokochać siebie.',
+    description:
+      'W mojej szafie - blog o życiu, emocjach, kobiecości i własnej drodze. Jak pokochać siebie.',
+    keywords: [
+      'blog o życiu, emocjach, kobiecości i własnej drodze',
+      'kobieca moc i energia',
+      'podróż w głąb siebie',
+      'jak pokochać siebie',
+    ],
     siteUrl: 'https://www.wmojejszafie.pl',
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Start',
+        name: 'Home',
         slug: '/',
       },
       {
