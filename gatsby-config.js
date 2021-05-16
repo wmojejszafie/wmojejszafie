@@ -31,10 +31,10 @@ module.exports = {
     siteUrl: 'https://www.wmojejszafie.pl',
     image: '/images/share.jpg',
     menuLinks: [
-      // {
-      //   name: 'Home',
-      //   slug: '/',
-      // },
+      {
+        name: 'Start',
+        slug: '/',
+      },
       {
         name: 'O mnie',
         slug: '/about/',

@@ -32,6 +32,7 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
   li {

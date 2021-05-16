@@ -3,15 +3,12 @@ import styled from '@emotion/styled'
 import mainHeroBaner from '../images/mainHeroBarSmallTitle.jpg'
 
 const Wrapper = styled.section`
-  min-height: 100px;
-  max-height: 10vh
+  position: relative;
+  min-height: 300px;
   height: auto;
   @media (min-width: ${props => props.theme.responsive.small}) {
     height: ${props => props.height || 'auto'};
   }
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 `
 
 const Title = styled.h1`
@@ -43,11 +40,22 @@ const SubTitle = styled.h2`
 `
 
 const Image = styled.img`
-  max-width: 1000px;
+  position: absolute;
   object-fit: cover;
-  max-height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  &::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
 `
 
 const MainHero = props => (

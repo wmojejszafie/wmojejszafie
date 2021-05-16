@@ -44,7 +44,7 @@ const Layout = props => {
           Skip to content
         </Skip>
         <Menu />
-        <MainHero />
+        {window.location.pathname === '/' && <MainHero height={'50vh'} />}
         <div id="main">{props.children}</div>
       </div>
       <Footer />
