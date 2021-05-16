@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import mainHeroBaner from '../images/mainHeroBarSmallTitle.jpg'
 
 const Wrapper = styled.section`
-  min-height: 300px;
+  min-height: 100px;
+  max-height: 10vh
   height: auto;
   @media (min-width: ${props => props.theme.responsive.small}) {
     height: ${props => props.height || 'auto'};
@@ -40,14 +42,23 @@ const SubTitle = styled.h2`
   font-style: italic;
 `
 
+const Image = styled.img`
+  max-width: 1000px;
+  object-fit: cover;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 const MainHero = props => (
-  <Wrapper height="10vh">
-    <Title>
+  <Wrapper>
+    {/* <Title>
       W mojej szafie - blog o życiu, emocjach, kobiecości i własnej drodze.
     </Title>
     <SubTitleSpan>
       <SubTitle>jak pokochać siebie</SubTitle>
-    </SubTitleSpan>
+    </SubTitleSpan> */}
+    <Image src={mainHeroBaner} />
   </Wrapper>
 )
 

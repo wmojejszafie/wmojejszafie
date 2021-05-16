@@ -30,7 +30,7 @@ const BgImg = styled(Img)`
 
 const Title = styled.h1`
   z-index: 2;
-  font-size: 3em;
+  font-size: 2.2em;
   text-transform: capitalize;
   font-weight: 600;
   position: absolute;
