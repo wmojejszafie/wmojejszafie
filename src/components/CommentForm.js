@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Picker from 'emoji-picker-react'
 import { firestore } from '../../firebase.js'
 
 const CommentBox = styled.div`
@@ -45,6 +46,8 @@ const CommentForm = ({ parentId, slug }) => {
   const [content, setContent] = useState('')
   const [isFormVisible, setIsFormVisible] = useState(false)
 
+  const textAreaRef = useRef()
+
   const resetComment = () => {
     setName('')
     setContent('')
@@ -70,6 +73,22 @@ const CommentForm = ({ parentId, slug }) => {
       .finally(() => resetComment())
   }
 
+  const onEmojiClick = (_event, emojiObject) => {
+    const cursorPosition = textAreaRef?.current?.selectionStart || 0
+    setContent(
+      content.substring(0, cursorPosition) +
+        emojiObject.emoji +
+        ' ' +
+        content.substring(cursorPosition, content.length)
+    )
+
+    textAreaRef.current.focus()
+  }
+
+  const setContentValue = e => {
+    setContent(e.target.value)
+  }
+
   return (
     <CommentBox>
       {isFormVisible ? (
@@ -87,15 +106,21 @@ const CommentForm = ({ parentId, slug }) => {
           <label htmlFor="comment">
             Komentarz
             <textarea
+              ref={textAreaRef}
               style={{ display: 'block', resize: 'vertical' }}
               id="comment"
-              onChange={e => setContent(e.target.value)}
+              onChange={setContentValue}
               value={content}
               name="comment"
               required="required"
               cols="30"
               rows="3"
             ></textarea>
+            <Picker
+              disableAutoFocus
+              onEmojiClick={onEmojiClick}
+              pickerStyle={{ width: '100%', height: '200px' }}
+            />
           </label>
           <Button
             style={{ marginRight: '10px' }}
