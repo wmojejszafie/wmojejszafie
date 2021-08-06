@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
@@ -7,8 +7,9 @@ import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
-import PostComments from '../components/PostComments'
+import Comments from '../components/Comments'
 import SEO from '../components/SEO'
+import { firestore } from '../../firebase.js'
 
 const PostTemplate = ({ data, pageContext }) => {
   const {
@@ -24,8 +25,8 @@ const PostTemplate = ({ data, pageContext }) => {
   const next = pageContext.next
   const { basePath, slug } = pageContext
   useEffect(() => {
-    window && window.FB && window.FB.XFBML.parse();
-  }, []);
+    window && window.FB && window.FB.XFBML.parse()
+  }, [])
 
   let ogImage
   try {
@@ -34,16 +35,33 @@ const PostTemplate = ({ data, pageContext }) => {
     ogImage = null
   }
 
+  const [comments, setComments] = useState([])
+
+  useEffect(() => {
+    firestore.collection(`comments`).onSnapshot(snapshot => {
+      const posts = snapshot.docs
+        .filter(doc => doc.data().slug === slug)
+        .map(doc => {
+          return { id: doc.id, ...doc.data() }
+        })
+      setComments(posts)
+    })
+  }, [slug])
+
+  useEffect(() => {
+    const cleanUp = firestore.collection(`comments`).onSnapshot(snapshot => {
+      const posts = snapshot.docs
+        .filter(doc => doc.data().slug === slug)
+        .map(doc => {
+          return { id: doc.id, ...doc.data() }
+        })
+      setComments(posts)
+    })
+    return () => cleanUp()
+  }, [slug])
+
   return (
     <Layout>
-      <div id="fb-root"></div>
-      <script
-        async
-        defer
-        crossOrigin="anonymous"
-        src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0&appId=2621867264723366"
-        nonce="cZXpDwfK"
-      ></script>
       <SEO
         title={title}
         description={
@@ -56,13 +74,11 @@ const PostTemplate = ({ data, pageContext }) => {
       <Hero title={title} image={heroImage} height={'50vh'} />
       <Container>
         {tags && <TagList tags={tags} basePath={basePath} />}
-        <PostDetails
-          date={publishDate}
-        />
+        <PostDetails date={publishDate} />
         <PageBody body={body} />
       </Container>
       <PostLinks previous={previous} next={next} basePath={basePath} />
-      <PostComments slug={slug}/>
+      <Comments slug={slug} comments={comments} />
     </Layout>
   )
 }
