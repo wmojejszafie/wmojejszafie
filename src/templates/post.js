@@ -44,6 +44,7 @@ const PostTemplate = ({ data, pageContext }) => {
         .map(doc => {
           return { id: doc.id, ...doc.data() }
         })
+        .sort((a, b) => b.time?.seconds - a.time?.seconds)
       setComments(posts)
     })
   }, [slug])
@@ -55,6 +56,7 @@ const PostTemplate = ({ data, pageContext }) => {
         .map(doc => {
           return { id: doc.id, ...doc.data() }
         })
+        .sort((a, b) => b.time?.seconds - a.time?.seconds)
       setComments(posts)
     })
     return () => cleanUp()

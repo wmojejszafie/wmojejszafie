@@ -9,7 +9,7 @@ const CommentBox = styled.div`
   textarea {
     display: block;
     background-color: #fff;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     font-size: 14px;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
@@ -117,6 +117,7 @@ const CommentForm = ({ parentId, slug }) => {
               rows="3"
             ></textarea>
             <Picker
+              disableSearchBar
               disableAutoFocus
               onEmojiClick={onEmojiClick}
               pickerStyle={{ width: '100%', height: '200px' }}
