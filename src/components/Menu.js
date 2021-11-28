@@ -9,7 +9,7 @@ import { useSiteMetadata } from '../hooks/use-site-metadata'
 const Header = styled.header`
   background: ${props => props.theme.colors.primary};
   width: 100%;
-  padding: 1em 0;
+  padding: 0.2em 0;
 `
 
 const LiWrapper = styled.span`
@@ -27,10 +27,12 @@ const Nav = styled.nav`
   max-width: ${props => props.theme.sizes.maxWidth};
   margin: 0 auto;
   padding: 0.5em 1.5em;
-
+  display: flex;
+  justify-content: flex-end;
   ul {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
   li {
