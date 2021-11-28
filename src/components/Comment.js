@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import CommentForm from './CommentForm'
 
 const CommentBox = styled.article`
-  border: 1px solid #ddd;
   margin: 25px 0 0 ${props => (props.childrenComments?.length ? '20px' : '0')};
   font-size: 14px;
   padding: 5px 10px 5px 10px;
@@ -17,9 +16,12 @@ const CommentBox = styled.article`
   .comment-author {
     font-weight: 700;
   }
-  comment-date {
-    font-weight: 400;
+  .comment-date {
+    font-weight: 300;
     font-style: italic;
+  }
+  .comment-content {
+    font-weight: 300;
   }
   .flex {
     display: flex;
@@ -32,12 +34,10 @@ const SingleComment = ({ comment }) => (
     <div className="flex-container">
       <span className="comment-author">{comment.name}</span>
       <span className="comment-date">
-        {comment.time && (
-          <time>{moment(comment.time.toDate()).calendar()}</time>
-        )}
+        {comment.time && moment(comment.time.toDate()).format('d/MM/YYYY')}
       </span>
     </div>
-    <p>{comment.content}</p>
+    <p className="comment-content">{comment.content}</p>
   </div>
 )
 

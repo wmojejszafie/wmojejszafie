@@ -32,7 +32,7 @@ module.exports = {
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Start',
         slug: '/',
       },
       {
