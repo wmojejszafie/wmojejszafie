@@ -44,7 +44,8 @@ const Layout = props => {
           Skip to content
         </Skip>
         <Menu />
-        {window.location.pathname === '/' && <MainHero height={'50vh'} />}
+        {typeof window !== 'undefined' &&
+          window?.location?.pathname === '/' && <MainHero height={'50vh'} />}
         <div id="main">{props.children}</div>
       </div>
       <Footer />
