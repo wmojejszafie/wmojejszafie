@@ -34,7 +34,7 @@ const SingleComment = ({ comment }) => (
     <div className="flex-container">
       <span className="comment-author">{comment.name}</span>
       <span className="comment-date">
-        {comment.time && moment(comment.time.toDate()).format('d/MM/YYYY')}
+        {comment.time && moment(comment.time.toDate()).format('DD/MM/YYYY')}
       </span>
     </div>
     <p className="comment-content">{comment.content}</p>
