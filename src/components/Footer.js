@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import CookieConsent from 'react-cookie-consent'
 
 import SocialSection from './SocialSection'
 
@@ -45,6 +46,26 @@ const Item = styled.li`
 
 const Footer = () => (
   <Wrapper>
+    <CookieConsent
+      location="bottom"
+      buttonText="OK"
+      cookieName="gatsby-gdpr-google-analytics"
+      style={{
+        background: 'rgba(93, 96, 96, 0.97)',
+        fontWeight: 100,
+        fontSize: '1rem',
+      }}
+      buttonStyle={{
+        background: '#e1e1e1',
+        fontSize: '0.75rem',
+      }}
+    >
+      Strona wykorzystuje pliki cookies do przechowywania Twoich ustawień oraz
+      do zbierania anonimowych danych o ruchy użytkowników na stronie.
+      Korzystanie ze strony oznacza zgodę na zapis lub odczyt podstawowych
+      plików cookie zgodnie z ustawieniami przeglądarki. Jeśli nie zgadasz się
+      na wykorzystywanie cookies, zmień proszę swoje ustawienia przeglądarki.
+    </CookieConsent>
     <List>
       <Item>
         <a
