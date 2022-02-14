@@ -40,7 +40,7 @@ module.exports = {
         slug: '/about/',
       },
     ],
-    postsPerFirstPage: 15,
+    postsPerFirstPage: 25,
     postsPerPage: 15,
     basePath: '/',
   },
@@ -96,15 +96,6 @@ module.exports = {
         icon: './static/images/favicon.png',
       },
     },
-    // 'gatsby-plugin-offline',
-    // {
-    //   resolve: `gatsby-plugin-schema-snapshot`,
-    //   options: {
-    //     path: `./src/gatsby/schema/schema.gql`,
-    //     update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
-    //     precachePages: [`/about/`, `/page-data/*`],
-    //   },
-    // },
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-htaccess',
@@ -114,6 +105,18 @@ module.exports = {
         www: true,
         SymLinksIfOwnerMatch: true,
         host: 'www.wmojejszafie.pl', // if 'www' is set to 'false', be sure to also remove it here!
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'UA-38565715-3', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false, // default
+        },
+        environments: ['production', 'development'],
       },
     },
   ],
