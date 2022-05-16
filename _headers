@@ -41,6 +41,16 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
+/wykipialo/
+  Link: </webpack-runtime-ab77dcaf14929e58e68c.js>; rel=preload; as=script
+  Link: </framework-62801ea20e16838e8622.js>; rel=preload; as=script
+  Link: </app-1c3e4aa38ed0bca24d35.js>; rel=preload; as=script
+  Link: </styles-08bc34de4ea872a98d93.js>; rel=preload; as=script
+  Link: </a9a7754c-d43818de1f614a908cd4.js>; rel=preload; as=script
+  Link: </2df5cbd4-44d411f06a6306a8e411.js>; rel=preload; as=script
+  Link: </commons-c14761e7f7fc72418250.js>; rel=preload; as=script
+  Link: </498b443ccb10a25f0720a51389f859ade325ce47-fd81a6b4c11fe9539b09.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-aa9f9742b61f7fd6bb1d.js>; rel=preload; as=script
 /milosc-wlasna/
   Link: </webpack-runtime-ab77dcaf14929e58e68c.js>; rel=preload; as=script
   Link: </framework-62801ea20e16838e8622.js>; rel=preload; as=script
