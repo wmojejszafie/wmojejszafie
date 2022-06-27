@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         name: 'O mnie',
-        slug: '/about/',
+        slug: '/o-mnie/',
       },
     ],
     postsPerFirstPage: 25,

@@ -66,8 +66,8 @@ Edit siteMeta data in [`/src/gatsby-config.js`](https://github.com/ryanwiemer/ga
         slug: '/',
       },
       {
-        name: 'About',
-        slug: '/about/',
+        name: 'O mnie',
+        slug: '/o-mnie/',
       },
       {
         name: 'Contact',
