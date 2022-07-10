@@ -11,7 +11,7 @@ import Comments from '../components/Comments'
 import SEO from '../components/SEO'
 import { firestore } from '../../firebase.js'
 
-const PostTemplate = ({ data, pageContext }) => {
+const PostTemplate = ({ data, pageContext, location }) => {
   const {
     title,
     metaDescription,
@@ -36,6 +36,12 @@ const PostTemplate = ({ data, pageContext }) => {
   }
 
   const [comments, setComments] = useState([])
+
+  useEffect(() => {
+    if (location?.search === '?komentarze' && window) {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+  }, [location?.search])
 
   useEffect(() => {
     firestore.collection(`comments`).onSnapshot(snapshot => {

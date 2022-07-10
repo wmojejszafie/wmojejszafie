@@ -3,6 +3,7 @@ import moment from 'moment'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import CommentForm from './CommentForm'
+import { Link } from 'gatsby'
 
 const CommentBox = styled.article`
   margin: 25px 0 0 ${props => (props.childrenComments?.length ? '20px' : '0')};
@@ -42,7 +43,7 @@ const SingleComment = ({ comment }) => (
 )
 
 const Comment = props => {
-  const { comment, childrenComments, slug } = props
+  const { comment, childrenComments, slug, readOnly } = props
   return (
     <CommentBox>
       <SingleComment comment={comment} />
@@ -62,7 +63,9 @@ const Comment = props => {
         </div>
       )}
       <div style={{ margin: '10px' }}>
-        <CommentForm parentId={comment.id} slug={slug} />
+        {readOnly ? <Link to={`../${slug}?komentarze`}
+          state={{ fromCommentsList: true }}
+        >Zobacz</Link> : <CommentForm parentId={comment.id} slug={slug} />}
       </div>
     </CommentBox>
   )
