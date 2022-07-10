@@ -65,7 +65,7 @@ const Comment = props => {
       <div style={{ margin: '10px' }}>
         {readOnly ? <Link to={`../${slug}?komentarze`}
           state={{ fromCommentsList: true }}
-        >Zobacz</Link> : <CommentForm parentId={comment.id} slug={slug} />}
+        >Idź do: "{slug}"</Link> : <CommentForm parentId={comment.id} slug={slug} />}
       </div>
     </CommentBox>
   )
