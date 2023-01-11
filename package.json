@@ -40,7 +40,7 @@
     "gatsby-remark-images-contentful": "^2.1.31",
     "gatsby-remark-prismjs": "^3.3.31",
     "gatsby-source-contentful": "^2.1.85",
-    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-remark": "^5.25.1",
     "gh-pages": "^3.1.0",
     "inquirer": "^7.0.4",
     "lodash": "^4.17.21",
