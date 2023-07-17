@@ -64,7 +64,6 @@ const activeLinkStyle = {
 
 const Menu = () => {
   const { menuLinks } = useSiteMetadata()
-  console.log("menuLinks", menuLinks);
   return (
     <Header>
       <Nav>
