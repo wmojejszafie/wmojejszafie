@@ -36,8 +36,8 @@ module.exports = {
         slug: '/',
       },
       {
-        name: 'O mnie',
-        slug: '/o-mnie/',
+        name: 'O blogu',
+        slug: '/o-blogu/',
       },
     ],
     postsPerFirstPage: 25,
