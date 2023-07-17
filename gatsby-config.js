@@ -19,9 +19,9 @@ module.exports = {
   pathPrefix: '/',
   siteMetadata: {
     title:
-      'W mojej szafie - blog o życiu, emocjach, kobiecości i własnej drodze. Jak pokochać siebie.',
+      'W mojej szafie - blog o życiu na własnych zasadach',
     description:
-      'W mojej szafie - blog o życiu, emocjach, kobiecości i własnej drodze. Jak pokochać siebie.',
+      'Blog o poszukiwaniu własnej drogi i życiu w zgodzie ze sobą. Jak pokochałam siebie.',
     keywords: [
       'blog o życiu, emocjach, kobiecości i własnej drodze',
       'kobieca moc i energia',
