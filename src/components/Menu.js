@@ -64,6 +64,7 @@ const activeLinkStyle = {
 
 const Menu = () => {
   const { menuLinks } = useSiteMetadata()
+  console.log("menuLinks", menuLinks);
   return (
     <Header>
       <Nav>
@@ -71,7 +72,7 @@ const Menu = () => {
           {menuLinks.map(link => (
             <li key={link.name}>
               <LiWrapper>
-                {link.name === 'O mnie' && (
+                {link.name === 'O blogu' && (
                   <SocialWrapper>
                     <SocialSection />
                   </SocialWrapper>
